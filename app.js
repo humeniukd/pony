@@ -1,4 +1,4 @@
-import Helper from "./finder.js";
+import Helper from "./helper.js";
 const headers = {'Content-Type': 'application/json'};
 const base = 'https://ponychallenge.trustpilot.com/pony-challenge/maze';
 const $res = document.getElementById('res');
