@@ -26,6 +26,13 @@ h1 {
     white-space: pre;
     font-size: x-small;
     color: #CCC;
+
+}
+@media only screen and (min-device-width: 320px) {
+
+    #res {
+        font-size: 8px;
+    }
 }
 
 #d {
