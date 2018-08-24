@@ -1,8 +1,8 @@
-import Helper from "./helper.js";
+import Helper from "./finder.js";
 const headers = {'Content-Type': 'application/json'};
 const base = 'https://ponychallenge.trustpilot.com/pony-challenge/maze';
 const $res = document.getElementById('res');
-const $dificulty = document.getElementById('dificulty');
+const $difficulty = document.getElementById('difficulty');
 const $guide = document.getElementById('guide');
 let helper, interval;
 
@@ -11,7 +11,7 @@ const init = () => {
     "maze-width": 15,
     "maze-height": 25,
     "maze-player-name": "Fluttershy",
-    "difficulty": parseInt($dificulty.value)
+    "difficulty": parseInt($difficulty.value)
   };
   fetch(base, {
     method: 'POST',
@@ -46,7 +46,7 @@ const init = () => {
     });
   }, 500);
 };
-$dificulty.onchange = init;
+$difficulty.onchange = init;
 init();
 const check = () => {
   if (helper.pony === helper.end) confirm('You win! Want to play again?') ? init() : clearInterval(interval);
