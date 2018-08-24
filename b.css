@@ -1,0 +1,45 @@
+.container {
+    margin: auto
+}
+
+body {
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-color: lightgoldenrodyellow;
+}
+
+h1 {
+    font-weight: 500;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    color: deeppink;
+}
+
+#res {
+    font-family: monospace;
+    line-height: normal;
+    white-space: pre;
+    font-size: x-small;
+    color: #CCC;
+}
+
+#d {
+    color: #464547;
+}
+
+#p {
+    color: deeppink;
+}
+
+#e {
+    color: #008ACE;
+}
+
+#c {
+    color: #263852;
+}
