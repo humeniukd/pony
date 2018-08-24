@@ -1,5 +1,6 @@
-# Help save the pony!
 ![Hero](/hero1.jpg?raw=true)
+[API docs](https://ponychallenge.trustpilot.com/api-docs/#/pony-challenge)
+# Help save the pony!
 A few days ago, one of our shiny little friends was roaming around Ponyville when she saw a rainbow. The pony was mesmerized by the lights and immediately decided to follow the trail of colors. Maybe this time she would finally get to the end of the rainbow!
 
 Unfortunately, our little pony was so distracted that she didn’t see the tangled maze in front of her, and… Oh no! Now she is lost and cannot find her way out!
