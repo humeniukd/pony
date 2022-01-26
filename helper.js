@@ -76,11 +76,11 @@ export default class Helper {
       l1 += '+';
       let fill = '   ';
       if (this.pony === i)
-        fill = ' <b id="p">P</b> ';
+        fill = ' <b id="p">Ż</b> ';
       else if (this._domokun === i)
-        fill = ' <b id="d">Ż</b> ';
+        fill = ' <b id="d">M</b> ';
       else if (this.end === i)
-        fill = ' <b id="e">E</b> ';
+        fill = ' <b id="e">P</b> ';
       else if (this.guide && this.path.includes(i))
         fill = ` <i id="c">·</i> `;
       l1 += item.some(a => a === 'north') ? '---': '   ';
