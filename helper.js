@@ -78,7 +78,7 @@ export default class Helper {
       if (this.pony === i)
         fill = ' <b id="p">P</b> ';
       else if (this._domokun === i)
-        fill = ' <b id="d">D</b> ';
+        fill = ' <b id="d">Ż</b> ';
       else if (this.end === i)
         fill = ' <b id="e">E</b> ';
       else if (this.guide && this.path.includes(i))
